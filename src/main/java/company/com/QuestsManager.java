@@ -41,7 +41,6 @@ public class QuestsManager{
         int index = 0;
         for (String qustSubInfo: questArray){
             questArray[index] = qustSubInfo.trim();
-            questArray[0]="❓"+qustSubInfo.trim();
             index++;
         }
         long id;
@@ -51,7 +50,7 @@ public class QuestsManager{
         }else id = mQuestsCollection.count();
 
         Document newUser = new Document("id", id)
-                .append("situation", questArray[0])
+                .append("situation","❓"+ questArray[0])
                 .append("choice1", questArray[1])
                 .append("choice2", questArray[2])
                 .append("choice3", questArray[3])
