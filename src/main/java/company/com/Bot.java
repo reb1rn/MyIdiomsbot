@@ -59,7 +59,7 @@ public class Bot extends TelegramLongPollingBot {
                 if (message_text.contains("addone") && UsersManager.getInstance().getCurrentlypro(update.getMessage().getChat()) == true) {
                     String questInfo = message_text.replace("addone", "");
                     QuestsManager.getInstance().addQuest(questInfo);
-sending.sendMsg(update.getMessage(),"Quest was successfully added.It will be checked , and after that it will apper");
+sending.sendMsg(update.getMessage(),"Quest was successfully added✅It will be checked , and after that it will apper.");
                 }
                 else if (message_text.equals("/startgame")) {
 
