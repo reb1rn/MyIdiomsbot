@@ -130,7 +130,7 @@ sending.sendMsg(update.getMessage(),"Quest was successfully added✅"+"\n It wil
                 }
                 else if (message_text.equals("Leaderboard")) {
                     sending.sendMsg(update.getMessage(), "\t⬆️⬆️⬆️");
-                } else if (message_text.equals("addQuest") && UsersManager.getInstance().getCurrentlypro(update.getMessage().getChat()) == true) {
+                } else if (message_text.equals("NewQuest") && UsersManager.getInstance().getCurrentlypro(update.getMessage().getChat()) == true) {
                     // sending.sendMsg(update.getMessage(),alerts.instruction());
 
 
@@ -155,7 +155,7 @@ sending.sendMsg(update.getMessage(),"Quest was successfully added✅"+"\n It wil
                             "\n * c)interested in" +
                             "\n *a" +
                             "\n * come up - have an idea ,something new etc.");
-                } else if (message_text.equals("addQuest") && UsersManager.getInstance().getCurrentlypro(update.getMessage().getChat()) == false && message_text.contains("addone") && UsersManager.getInstance().getCurrentlypro(update.getMessage().getChat()) == false) {
+                } else if (message_text.equals("NewQuest") && UsersManager.getInstance().getCurrentlypro(update.getMessage().getChat()) == false && message_text.contains("addone") && UsersManager.getInstance().getCurrentlypro(update.getMessage().getChat()) == false) {
                     sending.sendMsg(update.getMessage(), "You need to be  in top-3 players\uD83D\uDD25\uD83D\uDD25\uD83D\uDD25 to add new quest." +
                             "\n Use button Leaderboard\uD83D\uDD35 to check the leadearboard list. ");
                 } //else if (message_text.equals("/start") || message_text.equals("/startgame") && UsersManager.getInstance().getCurrentlyId(update.getMessage().getChat()).equals("424596510")) {
