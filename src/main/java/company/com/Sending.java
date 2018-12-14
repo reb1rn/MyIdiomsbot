@@ -84,7 +84,7 @@ public class Sending extends Bot {
         KeyboardRow row = new KeyboardRow();
         row.add("/startgame");
         row.add("Leaderboard");
-        row.add("addQuest");
+        row.add("NewQuest");
         keyboard.add(row);
 
         row = new KeyboardRow();
