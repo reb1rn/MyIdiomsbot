@@ -53,7 +53,7 @@ public class Sending extends Bot {
                 "\n in which you must choose the most suitable idiom\uD83D\uDE43." +
                 "\t\nChoose variant a , b or c ." ;
 
-        String  info1=        " \uD83E\uDD24 EX: Harry is   going on holiday" +
+        String  info1=        " \uD83E\uDD24 EX: Harry is ...  going on holiday" +
                 "\n a)looking forward to \t b)come across" +
                 "\n c)facinated by " +
                 "\nCorrect answer is a)looking forward to , because it means :hoping to go(in context) \uD83D\uDE0A "
@@ -61,8 +61,8 @@ public class Sending extends Bot {
                 "\n(P.S you will be given the meaning for correct idiom after the test )"; 
                 
            String info2=     "\t\nYou have only 1 chance to tick the correct option." +
-                "\nFor each correct option you will resieve 1 point , " +
-                "\nand after the game you will recieve IdiomHunters' rank.";
+                "\nFor each correct option you will receive 1 point , " +
+                "\n and after the game you will receive IdiomHunters' rank.";
            
            String info3=     "\n If you are in top-3 players , you could  add your own question" +
                 "\n (It will appear after the check )." +
