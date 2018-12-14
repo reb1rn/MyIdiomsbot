@@ -47,25 +47,32 @@ public class Sending extends Bot {
 
 
     public void gameInfo(Message message) {
-        String  info = message.getFrom().getFirstName() + ", welcome to the IdiomaHunter!✋" +
-                "\t\n The aim of IdiomaHunter is check your knowladge of phrasal verbs\uD83D\uDE2E." +
+        String  info = message.getFrom().getFirstName() + ", welcome to the IdiomHunter!✋" +
+                "\t\n The aim of IdiomaHunter is to check your knowledge of phrasal verbs\uD83D\uDE2E." +
                 "\n You will be given different situations," +
                 "\n in which you must choose the most suitable idiom\uD83D\uDE43." +
-                "\t\nChoose variant a , b or c ." +
-                "\n \uD83E\uDD24 EX: Harry is   going on holiday" +
+                "\t\nChoose variant a , b or c ." ;
+
+        String  info1=        " \uD83E\uDD24 EX: Harry is   going on holiday" +
                 "\n a)looking forward to \t b)come across" +
                 "\n c)facinated by " +
-                "\nCorrect answer is a)looking forward to , because it means :hoping to go \uD83D\uDE0A " +
-                "\n(P.S you will be given the meaning for correct idioma after the test )" +
-                "\t\nYou have only 1 chance to tick the correct option." +
-                "\nFor each correct option you will recieve 1 point , " +
-                "\nand after the game you will recieve IdiomaHunters' rank." +
-                "\n If you are in top-3 players , you could  add your own question" +
-                "\n (It will appear after bot restart)." +
-                "\n To check y"  +
-                "\nTo start use command /startgame." +
+                "\nCorrect answer is a)looking forward to , because it means :hoping to go(in context) \uD83D\uDE0A "
+                +
+                "\n(P.S you will be given the meaning for correct idiom after the test )"; 
+                
+           String info2=     "\t\nYou have only 1 chance to tick the correct option." +
+                "\nFor each correct option you will resieve 1 point , " +
+                "\nand after the game you will recieve IdiomHunters' rank.";
+           
+           String info3=     "\n If you are in top-3 players , you could  add your own question" +
+                "\n (It will appear after the check )." +
+                "\n To check your position use button Leaderboard"  +
+                "\nTo start the quest use command /startgame." +
                 "\nGood luck!!!";
         sendMsg(message, info);
+        sendMsg(message,info1);
+        sendMsg(message,info2);
+        sendMsg(message,info3);
     }
 
     public void sendKeyboard(Message myMessage){
