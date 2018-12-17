@@ -66,13 +66,18 @@ public class Sending extends Bot {
            
            String info3=     "\n If you are in top-3 players , you could  add your own question" +
                 "\n (It will appear after the check )." +
-                "\n To check your position use button Leaderboard"  +
-                "\nTo start the quest use command /startgame." +
-                "\nGood luck!!!";
+                "\n To check your position use button Leaderboard";
+         String info4="\n  To start the quest use command"+
+             "\n   ⬇️⬇️⬇️"
+             "\n /startgame" +
+             "\n   ⬆️⬆️⬆️ "
+             +
+                "\nGood luck!!!"
         sendMsg(message, info);
         sendMsg(message,info1);
         sendMsg(message,info2);
         sendMsg(message,info3);
+        sendMsg(message,info4);
     }
 
     public void sendKeyboard(Message myMessage){
