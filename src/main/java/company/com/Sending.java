@@ -70,9 +70,8 @@ public class Sending extends Bot {
          String info4="\n  To start the quest use command"+
              "\n   ⬇️⬇️⬇️"
              "\n /startgame" +
-             "\n   ⬆️⬆️⬆️ "
-             +
-                "\nGood luck!!!"
+             "\n   ⬆️⬆️⬆️ " +
+                "\nGood luck!!!";
         sendMsg(message, info);
         sendMsg(message,info1);
         sendMsg(message,info2);
