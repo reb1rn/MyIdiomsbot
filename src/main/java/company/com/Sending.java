@@ -68,7 +68,7 @@ public class Sending extends Bot {
                 "\n (It will appear after the check )." +
                 "\n To check your position use button Leaderboard";
          String info4="\n  To start the quest use command"+
-             "\n   ⬇️⬇️⬇️"
+             "\n   ⬇️⬇️⬇️" +
              "\n /startgame" +
              "\n   ⬆️⬆️⬆️ " +
                 "\nGood luck!!!";
